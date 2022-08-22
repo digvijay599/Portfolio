@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'apiki/carbon-field-icon' => array(
+            'pretty_version' => 'v3.1.1',
+            'version' => '3.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../apiki/carbon-field-icon',
+            'aliases' => array(),
+            'reference' => '977248004e04fbba3554051e7135f75ece701ffe',
+            'dev_requirement' => false,
+        ),
+        'htmlburger/carbon-fields' => array(
+            'pretty_version' => 'v3.1.14',
+            'version' => '3.1.14.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../htmlburger/carbon-fields',
+            'aliases' => array(),
+            'reference' => 'ca5d111b7f8202446619e866e04be3b0f20ef7de',
+            'dev_requirement' => false,
+        ),
+        'iamntz/carbon-fields-urlpicker' => array(
+            'pretty_version' => 'v3.x-dev',
+            'version' => '3.9999999.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../iamntz/carbon-fields-urlpicker',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'c8114eddd182ccd16e8cf031c7d317ee481c7d00',
+            'dev_requirement' => false,
+        ),
+    ),
+);

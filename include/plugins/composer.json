@@ -1,0 +1,7 @@
+{
+    "require": {
+        "htmlburger/carbon-fields": "^3.1",
+        "iamntz/carbon-fields-urlpicker": "v3.x-dev",
+        "apiki/carbon-field-icon": "^3.1"
+    }
+}
